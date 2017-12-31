@@ -1,0 +1,37 @@
+
+.Result {
+  width: 100%;
+  /* background:lightgray; */
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: bottom;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.Result-header {
+  color: #4d4d4d;
+  font-size: 11pt;
+  font-weight: normal;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 300px;
+}
+
+.Result-content {
+
+}
+
+.Value {
+  color: black;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.Value--win {
+  color: green;
+}
+
+.Value--lose {
+  color: red;
+}

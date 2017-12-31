@@ -2,28 +2,11 @@
   text-align: center;
 }
 
-.Label {
-  color: #747474;
-}
-
-.Value {
-  color: black;
-  font-size: 14pt;
-  font-weight: bold;
-}
-
-.List {
+.Results {
   list-style: none;
-}
-
-.List-Item {
-  margin-bottom: 30px;
-}
-
-.Value--win {
-  color: green;
-}
-
-.Value--lose {
-  color: red;
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  flex-direction: column; */
+  /* flex-wrap: wrap; */
 }
